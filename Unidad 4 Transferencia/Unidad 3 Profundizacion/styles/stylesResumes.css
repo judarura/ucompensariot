@@ -1,0 +1,114 @@
+.container-resume h1{
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+.container-resume h3{
+    font-size: 1rem;
+}
+
+.container-resume h1,
+.container-resume h3{
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container-resume{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+}
+
+.container-personal-information,
+.container-profession-information {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20rem;
+}
+
+.container-personal-information {
+    width: 40%;
+    align-items: center;
+    background-color: rgb(15, 19, 23);
+    color: white;
+}
+
+.resume-container-imgProfiel {
+    text-align: center;
+}
+
+.resume-imgProfile {
+    border-radius: 50%;
+    width: 50%;
+}
+
+.resume-imgProfile2 {
+    border-radius: 50%;
+    width: 50%;
+}
+
+.container-personal-information div,
+.container-personal-information section {
+    margin: 2rem 0;
+}
+
+.container-personal-information section {
+    width: 80%;
+    position: relative;
+}
+
+.container-personal-information section span {
+    margin: 0.8rem 0;
+}
+
+
+.border-personal-information {
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.container-personal-information section h3 {
+    text-align: center;
+}
+
+
+.container-profession-information {
+    width: 60%;
+    height: 100%;
+    padding-left: 2rem;
+}
+
+
+.section-border {
+    border: 2px solid rgb(15, 19, 23);
+    margin: 2.6rem 0;
+    border-radius: 50%;
+}
+
+.container-p {
+    width: 70%;
+    margin-bottom: 1rem;
+}
+
+.container-p div{
+    margin-left: 3rem;
+}
+
+h4 {
+    margin-bottom: 1rem;
+}
+
+span {
+    display: block;
+}
